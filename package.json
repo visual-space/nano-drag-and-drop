@@ -1,0 +1,49 @@
+{
+  "name": "nano-drag-and-drop",
+  "version": "0.0.1",
+  "description": "Simple, drag and drop for web components",
+  "main": "lib/nano-drag-and-drop.js",
+  "types": "./src/nano-drag-and-drop.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "webpack --config ./webpack/webpack-config.js --progress --profile --bail",
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/visual-space/nano-drag-and-drop.git"
+  },
+  "keywords": [
+    "State",
+    "Store"
+  ],
+  "author": "Adrian Moisa <code@adrian.moisa.ro> (http://adrianmoisa.ro)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/visual-space/nano-drag-and-drop/issues"
+  },
+  "homepage": "https://github.com/visual-space/nano-drag-and-drop#readme",
+  "devDependencies": {
+    "@types/debug": "0.0.30",
+    "@types/jasmine": "^2.8.2",
+    "@types/node": "^8.5.2",
+    "awesome-typescript-loader": "3.4.1",
+    "debug": "3.1.0",
+    "jasmine": "2.8.0",
+    "jasmine-core": "2.8.0",
+    "jasmine-webpack-plugin": "0.1.1",
+    "karma": "2.0.0",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-coverage-istanbul-reporter": "^1.3.0",
+    "karma-html-reporter": "0.2.7",
+    "karma-jasmine": "1.1.1",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "karma-requirejs": "1.1.0",
+    "karma-typescript": "^3.0.9",
+    "karma-webpack": "2.0.9",
+    "requirejs": "^2.3.5",
+    "typescript": "^2.6.2",
+    "uglifyjs-webpack-plugin": "^1.1.4",
+    "webpack": "^3.10.0"
+  }
+}

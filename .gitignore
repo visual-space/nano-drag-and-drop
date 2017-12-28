@@ -1,0 +1,19 @@
+# Ignore everything in repository root 
+/*
+
+# Files to not ignore
+!/.gitignore
+!/CHANGES.md
+!/karma.conf.js
+!/LICENSE
+!/package.json
+!/README.md
+!/ROADMAP.md
+!/tsconfig.json
+
+# Folders to not ignore
+!/docs/
+!/lib/
+!/samples/
+!/src/
+!/webpack/
