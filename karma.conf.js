@@ -14,6 +14,9 @@ module.exports = function (config) {
         files: [
             'src/**/*.ts',
         ],
+        exclude: [
+            'src/nano-drag-and-drop.d.ts',
+        ],
         preprocessors: {
             'src/**/*.ts': ['karma-typescript'],
         },
